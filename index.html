@@ -4,6 +4,7 @@
     <title>responsive nav</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style type="text/css">
         *{
@@ -20,6 +21,7 @@
            height: 90px;
            width: 100%;
 
+
         }
         #homw,#pay,#ab,#ser,#ran{
 
@@ -28,8 +30,10 @@
             font-weight: bolder;
             padding:20px;
             text-align: center;
+            height: 100%;
+            padding-top: 90px;
+            
         }
-
         nav ul{
 
             float: right;
@@ -140,17 +144,18 @@
             </label>
             
           <ul>
-            <li><a href="#homw">Home</a></li>
-            <li><a href="#pay">payments</a></li>
-            <li><a href="#ser">services</a></li>
-            <li><a href="#ab">about</a></li>
-            <li><a href="#ran">random</a></li>
+            <li><a href="#homw" class="links">Home</a></li>
+            <li><a href="#pay" class="links">payments</a></li>
+            <li><a href="#ser" class="links">services</a></li>
+            <li><a href="#ab" class="links">about</a></li>
+            <li><a href="#ran" class="links">random</a></li>
           </ul>  
 
         </nav>
     </div>
-    <h1>Home</h1>
+    <div class="sec">
     <div id="homw"> 
+        <h1>Home</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Urna cursus eget nunc scelerisque. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Nullam eget felis eget nunc lobortis mattis. Bibendum ut tristique et egestas. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Tincidunt dui ut ornare lectus sit amet est placerat. Convallis posuere morbi leo urna molestie at elementum eu. Curabitur vitae nunc sed velit dignissim sodales ut. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vehicula ipsum a arcu cursus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices sagittis orci a scelerisque purus semper.
 
 Justo nec ultrices dui sapien. Mauris sit amet massa vitae tortor. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Nec ullamcorper sit amet risus nullam eget felis. Aliquam faucibus purus in massa. Orci dapibus ultrices in iaculis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Lectus sit amet est placerat. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Ipsum consequat nisl vel pretium lectus quam id.
@@ -159,8 +164,9 @@ In mollis nunc sed id semper risus in hendrerit gravida. Urna cursus eget nunc s
 
 Felis donec et odio pellentesque diam volutpat commodo. Lorem ipsum dolor sit amet consectetur. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Aliquam id diam maecenas ultricies mi eget. Nulla facilisi cras fermentum odio eu. Mi proin sed libero enim. Tortor id aliquet lectus proin nibh. A pellentesque sit amet porttitor eget dolor morbi non arcu. Ac auctor augue mauris augue neque gravida in.
 </div>
-  <h1>Payments</h1>
+  
 <div id="pay"> 
+    <h1>Payments</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Urna cursus eget nunc scelerisque. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Nullam eget felis eget nunc lobortis mattis. Bibendum ut tristique et egestas. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Tincidunt dui ut ornare lectus sit amet est placerat. Convallis posuere morbi leo urna molestie at elementum eu. Curabitur vitae nunc sed velit dignissim sodales ut. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vehicula ipsum a arcu cursus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices sagittis orci a scelerisque purus semper.
 
 Justo nec ultrices dui sapien. Mauris sit amet massa vitae tortor. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Nec ullamcorper sit amet risus nullam eget felis. Aliquam faucibus purus in massa. Orci dapibus ultrices in iaculis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Lectus sit amet est placerat. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Ipsum consequat nisl vel pretium lectus quam id.
@@ -169,8 +175,9 @@ In mollis nunc sed id semper risus in hendrerit gravida. Urna cursus eget nunc s
 
 Felis donec et odio pellentesque diam volutpat commodo. Lorem ipsum dolor sit amet consectetur. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Aliquam id diam maecenas ultricies mi eget. Nulla facilisi cras fermentum odio eu. Mi proin sed libero enim. Tortor id aliquet lectus proin nibh. A pellentesque sit amet porttitor eget dolor morbi non arcu. Ac auctor augue mauris augue neque gravida in.
 </div>
-  <h1>Services</h1>
+ 
 <div id="ser"> 
+     <h1>Services</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Urna cursus eget nunc scelerisque. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Nullam eget felis eget nunc lobortis mattis. Bibendum ut tristique et egestas. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Tincidunt dui ut ornare lectus sit amet est placerat. Convallis posuere morbi leo urna molestie at elementum eu. Curabitur vitae nunc sed velit dignissim sodales ut. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vehicula ipsum a arcu cursus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices sagittis orci a scelerisque purus semper.
 
 Justo nec ultrices dui sapien. Mauris sit amet massa vitae tortor. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Nec ullamcorper sit amet risus nullam eget felis. Aliquam faucibus purus in massa. Orci dapibus ultrices in iaculis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Lectus sit amet est placerat. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Ipsum consequat nisl vel pretium lectus quam id.
@@ -179,8 +186,9 @@ In mollis nunc sed id semper risus in hendrerit gravida. Urna cursus eget nunc s
 
 Felis donec et odio pellentesque diam volutpat commodo. Lorem ipsum dolor sit amet consectetur. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Aliquam id diam maecenas ultricies mi eget. Nulla facilisi cras fermentum odio eu. Mi proin sed libero enim. Tortor id aliquet lectus proin nibh. A pellentesque sit amet porttitor eget dolor morbi non arcu. Ac auctor augue mauris augue neque gravida in.
 </div>
-  <h1>About</h1>
+  
 <div id="ab"> 
+    <h1>About</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Urna cursus eget nunc scelerisque. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Nullam eget felis eget nunc lobortis mattis. Bibendum ut tristique et egestas. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Tincidunt dui ut ornare lectus sit amet est placerat. Convallis posuere morbi leo urna molestie at elementum eu. Curabitur vitae nunc sed velit dignissim sodales ut. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vehicula ipsum a arcu cursus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices sagittis orci a scelerisque purus semper.
 
 Justo nec ultrices dui sapien. Mauris sit amet massa vitae tortor. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Nec ullamcorper sit amet risus nullam eget felis. Aliquam faucibus purus in massa. Orci dapibus ultrices in iaculis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Lectus sit amet est placerat. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Ipsum consequat nisl vel pretium lectus quam id.
@@ -189,8 +197,9 @@ In mollis nunc sed id semper risus in hendrerit gravida. Urna cursus eget nunc s
 
 Felis donec et odio pellentesque diam volutpat commodo. Lorem ipsum dolor sit amet consectetur. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Aliquam id diam maecenas ultricies mi eget. Nulla facilisi cras fermentum odio eu. Mi proin sed libero enim. Tortor id aliquet lectus proin nibh. A pellentesque sit amet porttitor eget dolor morbi non arcu. Ac auctor augue mauris augue neque gravida in.
 </div>
-  <h1>Random</h1>
+ 
 <div id="ran"> 
+     <h1>Random</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Urna cursus eget nunc scelerisque. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Nullam eget felis eget nunc lobortis mattis. Bibendum ut tristique et egestas. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Tincidunt dui ut ornare lectus sit amet est placerat. Convallis posuere morbi leo urna molestie at elementum eu. Curabitur vitae nunc sed velit dignissim sodales ut. Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Vehicula ipsum a arcu cursus. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices sagittis orci a scelerisque purus semper.
 
 Justo nec ultrices dui sapien. Mauris sit amet massa vitae tortor. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Nec ullamcorper sit amet risus nullam eget felis. Aliquam faucibus purus in massa. Orci dapibus ultrices in iaculis. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Lectus sit amet est placerat. Semper quis lectus nulla at volutpat diam ut venenatis tellus. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Ipsum consequat nisl vel pretium lectus quam id.
@@ -199,6 +208,26 @@ In mollis nunc sed id semper risus in hendrerit gravida. Urna cursus eget nunc s
 
 Felis donec et odio pellentesque diam volutpat commodo. Lorem ipsum dolor sit amet consectetur. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Aliquam id diam maecenas ultricies mi eget. Nulla facilisi cras fermentum odio eu. Mi proin sed libero enim. Tortor id aliquet lectus proin nibh. A pellentesque sit amet porttitor eget dolor morbi non arcu. Ac auctor augue mauris augue neque gravida in.
 </div>
+</div>
+<script type="text/javascript">
+    $(".links").click(function(){
+
+
+       $("ul").css("left","-100%");
+
+
+
+    },function(){
+
+
+$("#check").prop("checked",false)
+
+
+
+
+
+    })
+</script>
 
 
 
